@@ -1,0 +1,26 @@
+.m-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  margin-bottom: em(24);
+
+  &>* {
+    flex: none;
+  
+    &>* {
+      display: inline-block;
+      font-size: em(16);
+      color: #999;
+    }
+  }
+}
+
+.m-breadcrumb>:nth-child(n+2):not(.first-column)::before {
+  content: ">";
+  display: inline-block;
+  margin: 0 15px;
+  color: #999;
+}
+
+

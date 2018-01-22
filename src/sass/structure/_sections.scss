@@ -1,0 +1,47 @@
+//
+//-- General sections
+//
+
+.section {
+	margin-bottom: 1.5em;
+	padding: 2.25em 1.5em;
+
+	@include tablet-port {
+		margin-bottom: 2em;
+	}
+
+	@include wide {
+		//padding: 0;
+		margin-bottom: 3em;
+	}
+}
+
+.section__title {
+	text-transform: none;
+	color: $color-base;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1.5rem;
+	font-size: em(32);
+
+	@include tablet-port {
+		font-size: em(34);
+	}
+}
+
+.section__intro-text {
+	color: #4d4d4d;
+	text-align: center;
+	font-size: em(14);
+	margin-bottom: 1.5rem;
+
+	@include tablet-port {
+		font-size: em(16);
+		margin-bottom: 3rem;
+	}
+
+	@include wide {
+		font-size: em(18);
+		margin-bottom: 4rem;
+	}
+}

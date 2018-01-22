@@ -1,0 +1,522 @@
+{
+  "response": {
+    "meta": {
+      "hits": 16186209,
+      "time": 187,
+      "offset": 0
+    },
+    "docs": [
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/31/us/ap-us-flooding-stranded-hikers.html",
+        "snippet": "A police helicopter rescued 26 hikers stranded by flooding in a national forest recreation area in a canyon on the outskirts of Tucson....",
+        "lead_paragraph": "A police helicopter rescued 26 hikers stranded by flooding in a national forest recreation area in a canyon on the outskirts of Tucson.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Helicopter Rescues 26 Stranded by Flooding in Arizona Canyon",
+          "print_headline": "Helicopter Rescues 26 Stranded by Flooding in Arizona Canyon"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T15:06:51+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "U.S.",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "597f47927c459f246b61be63",
+        "word_count": 132,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/31/us/politics/ap-us-united-states-venezuela.html",
+        "snippet": "U.S. officials say the Trump administration is preparing to levy new sanctions on Venezuela, following through on threats to impose fresh penalties if the country went through with a controversial weekend election....",
+        "lead_paragraph": "U.S. officials say the Trump administration is preparing to levy new sanctions on Venezuela, following through on threats to impose fresh penalties if the country went through with a controversial weekend election.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "US Set to Hit Venezuela With New Sanctions After Election",
+          "print_headline": "US Set to Hit Venezuela With New Sanctions After Election"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T15:01:14+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "U.S.",
+        "subsection_name": "Politics",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "597f46417c459f246b61be62",
+        "word_count": 129,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/31/sports/baseball/ap-bbo-trade-deadline.html",
+        "snippet": "The Chicago Cubs have acquired reliever Justin Wilson and catcher Alex Avila in a trade with the Detroit Tigers, bolstering their chance for another long playoff run....",
+        "lead_paragraph": "The Chicago Cubs have acquired reliever Justin Wilson and catcher Alex Avila in a trade with the Detroit Tigers, bolstering their chance for another long playoff run.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Cubs Acquire LHP Wilson, C Avila in Trade With Tigers",
+          "print_headline": "Cubs Acquire LHP Wilson, C Avila in Trade With Tigers"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T14:58:22+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Sports",
+        "subsection_name": "Baseball",
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "597f459a7c459f246b61be61",
+        "word_count": 144,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/31/business/31reuters-britain-eu-agencies.html",
+        "snippet": "Almost all EU countries are likely to bid to host the two major regulatory agencies that have to be relocated from London, setting up a potential squabble between the 27 remaining members that have so far shown a united front on Brexit....",
+        "lead_paragraph": "Almost all EU countries are likely to bid to host the two major regulatory agencies that have to be relocated from London, setting up a potential squabble between the 27 remaining members that have so far shown a united front on Brexit.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "EU States Set for Squabble Over Who Gets London's Agencies After Brexit",
+          "print_headline": "EU States Set for Squabble Over Who Gets London's Agencies After Brexit"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T14:57:34+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Business Day",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "597f45667c459f246b61be5e",
+        "word_count": 360,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/reuters/2017/07/31/sports/31reuters-bosnia-diving.html",
+        "snippet": "Lorens Listo's name may not headline the world's sports pages, but on the streets of his native Mostar he is hailed as a champion among champions in a sport that is central to the Bosnian city's identity: high diving....",
+        "lead_paragraph": "Lorens Listo's name may not headline the world's sports pages, but on the streets of his native Mostar he is hailed as a champion among champions in a sport that is central to the Bosnian city's identity: high diving.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "Reuters",
+        "multimedia": [],
+        "headline": {
+          "main": "For Mostar Bridge-Diving Champion, Success Takes More Than Gravity",
+          "print_headline": "For Mostar Bridge-Diving Champion, Success Takes More Than Gravity"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T14:57:30+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Sports",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By REUTERS",
+          "organization": "REUTERS"
+        },
+        "type_of_material": "News",
+        "_id": "597f45667c459f246b61be5f",
+        "word_count": 408,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/2017/07/31/world/europe/easyjet-passenger-punch.html",
+        "snippet": "The fracas began after passengers had been waiting 12 hours for a delayed flight in France and began yelling at the attendant, the video showed....",
+        "lead_paragraph": "The fracas began after passengers had been waiting 12 hours for a delayed flight in France and began yelling at the attendant, the video showed.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "width": 600,
+            "url": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-articleLarge.jpg",
+            "rank": 0,
+            "height": 400,
+            "subtype": "xlarge",
+            "legacy": {
+              "xlargewidth": 600,
+              "xlarge": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-articleLarge.jpg",
+              "xlargeheight": 400
+            },
+            "type": "image"
+          },
+          {
+            "width": 190,
+            "url": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-thumbWide.jpg",
+            "rank": 0,
+            "height": 126,
+            "subtype": "wide",
+            "legacy": {
+              "wide": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-thumbWide.jpg",
+              "widewidth": 190,
+              "wideheight": 126
+            },
+            "type": "image"
+          },
+          {
+            "width": 75,
+            "url": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-thumbStandard.jpg",
+            "rank": 0,
+            "height": 75,
+            "subtype": "thumbnail",
+            "legacy": {
+              "thumbnailheight": 75,
+              "thumbnail": "images/2017/07/31/business/01xp-easyjet2/01xp-easyjet2-thumbStandard.jpg",
+              "thumbnailwidth": 75
+            },
+            "type": "image"
+          }
+        ],
+        "headline": {
+          "main": "Video Shows Airport Attendant Punching Passenger Holding a Child",
+          "print_headline": "Video Shows Airport Attendant Punching Passenger Holding a Child"
+        },
+        "keywords": [
+          {
+            "isMajor": "N",
+            "rank": 1,
+            "name": "subject",
+            "value": "Airlines and Airplanes"
+          },
+          {
+            "isMajor": "N",
+            "rank": 2,
+            "name": "subject",
+            "value": "Airports"
+          },
+          {
+            "isMajor": "N",
+            "rank": 3,
+            "name": "organizations",
+            "value": "EasyJet Airline Co Ltd"
+          },
+          {
+            "isMajor": "N",
+            "rank": 4,
+            "name": "glocations",
+            "value": "Nice (France)"
+          }
+        ],
+        "pub_date": "2017-07-31T14:57:29+0000",
+        "document_type": "article",
+        "news_desk": "Foreign",
+        "section_name": "World",
+        "subsection_name": "Europe",
+        "byline": {
+          "person": [
+            {
+              "organization": "",
+              "role": "reported",
+              "rank": 1,
+              "firstname": "Matthew",
+              "lastname": "HAAG"
+            }
+          ],
+          "original": "By MATTHEW HAAG"
+        },
+        "type_of_material": "News",
+        "_id": "597f45677c459f246b61be60",
+        "word_count": 562,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/31/us/ap-us-missing-swimmer.html",
+        "snippet": "Authorities have recovered the body of a Slovakian woman who disappeared while swimming in waters off New Jersey's shore....",
+        "lead_paragraph": "Authorities have recovered the body of a Slovakian woman who disappeared while swimming in waters off New Jersey's shore.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Body of Slovakian Who Went Swimming at Jersey Shore Is Found",
+          "print_headline": "Body of Slovakian Who Went Swimming at Jersey Shore Is Found"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T14:52:19+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "U.S.",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "597f442b7c459f246b61be5d",
+        "word_count": 128,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/2017/07/31/opinion/a-better-democratic-slogan-come-up-with-your-own.html",
+        "snippet": "A reader turns to Superman comics for inspiration. We invite otherreaders to offer their ideas....",
+        "lead_paragraph": "A reader turns to Superman comics for inspiration. We invite otherreaders to offer their ideas.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "width": 600,
+            "url": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-articleLarge.jpg",
+            "rank": 0,
+            "height": 400,
+            "subtype": "xlarge",
+            "legacy": {
+              "xlargewidth": 600,
+              "xlarge": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-articleLarge.jpg",
+              "xlargeheight": 400
+            },
+            "type": "image"
+          },
+          {
+            "width": 190,
+            "url": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-thumbWide-v2.jpg",
+            "rank": 0,
+            "height": 126,
+            "subtype": "wide",
+            "legacy": {
+              "wide": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-thumbWide-v2.jpg",
+              "widewidth": 190,
+              "wideheight": 126
+            },
+            "type": "image"
+          },
+          {
+            "width": 75,
+            "url": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-thumbStandard.jpg",
+            "rank": 0,
+            "height": 75,
+            "subtype": "thumbnail",
+            "legacy": {
+              "thumbnailheight": 75,
+              "thumbnail": "images/2017/07/25/us/let25dc-dems-3-copy/25dc-dems-3-thumbStandard.jpg",
+              "thumbnailwidth": 75
+            },
+            "type": "image"
+          }
+        ],
+        "headline": {
+          "main": "A Better Democratic Slogan? Come Up With Your Own",
+          "kicker": "Letter",
+          "print_headline": "",
+          "content_kicker": "Letter"
+        },
+        "keywords": [
+          {
+            "isMajor": "N",
+            "rank": 1,
+            "name": "subject",
+            "value": "Slogans and Mottoes"
+          },
+          {
+            "isMajor": "N",
+            "rank": 2,
+            "name": "organizations",
+            "value": "Democratic Party"
+          },
+          {
+            "isMajor": "N",
+            "rank": 3,
+            "name": "subject",
+            "value": "Superman (Fictional Character)"
+          },
+          {
+            "isMajor": "N",
+            "rank": 4,
+            "name": "subject",
+            "value": "United States Politics and Government"
+          }
+        ],
+        "pub_date": "2017-07-31T14:51:31+0000",
+        "document_type": "article",
+        "news_desk": "Letters",
+        "section_name": "Opinion",
+        "subsection_name": null,
+        "byline": [],
+        "type_of_material": "Letter",
+        "_id": "597f43fc7c459f246b61be5c",
+        "word_count": 158,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/aponline/2017/07/31/us/ap-us-niagara-falls-black-water.html",
+        "snippet": "The water near the base of Niagara Falls turned an alarming shade of black before tourists' eyes following a foul-smelling discharge from a wastewater treatment plant....",
+        "lead_paragraph": "The water near the base of Niagara Falls turned an alarming shade of black before tourists' eyes following a foul-smelling discharge from a wastewater treatment plant.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "AP",
+        "multimedia": [],
+        "headline": {
+          "main": "Discharge Turns Water at Base of Niagara Falls Black",
+          "print_headline": "Discharge Turns Water at Base of Niagara Falls Black"
+        },
+        "keywords": [],
+        "pub_date": "2017-07-31T14:49:13+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "U.S.",
+        "subsection_name": null,
+        "byline": {
+          "person": [],
+          "original": "By THE ASSOCIATED PRESS",
+          "organization": "THE ASSOCIATED PRESS"
+        },
+        "type_of_material": "News",
+        "_id": "597f43767c459f246b61be5b",
+        "word_count": 134,
+        "slideshow_credits": null
+      },
+      {
+        "web_url": "https://www.nytimes.com/2017/07/31/arts/television/confederate-hbo-inspires-noconfederate-hashtag-campaign-twitter.html",
+        "snippet": "A campaign has erupted on Twitter, asking HBO to abandon plans for “Confederate,” a show announced by HBO, David Benioff and D.B. Weiss....",
+        "lead_paragraph": "A campaign has erupted on Twitter, asking HBO to abandon plans for “Confederate,” a show announced by HBO, David Benioff and D.B. Weiss.",
+        "abstract": null,
+        "print_page": null,
+        "blog": [],
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "width": 600,
+            "url": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-articleLarge.jpg",
+            "rank": 0,
+            "height": 400,
+            "subtype": "xlarge",
+            "legacy": {
+              "xlargewidth": 600,
+              "xlarge": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-articleLarge.jpg",
+              "xlargeheight": 400
+            },
+            "type": "image"
+          },
+          {
+            "width": 190,
+            "url": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-thumbWide.jpg",
+            "rank": 0,
+            "height": 126,
+            "subtype": "wide",
+            "legacy": {
+              "wide": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-thumbWide.jpg",
+              "widewidth": 190,
+              "wideheight": 126
+            },
+            "type": "image"
+          },
+          {
+            "width": 75,
+            "url": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-thumbStandard.jpg",
+            "rank": 0,
+            "height": 75,
+            "subtype": "thumbnail",
+            "legacy": {
+              "thumbnailheight": 75,
+              "thumbnail": "images/2017/08/01/arts/01noconfederate1/01noconfederate1-thumbStandard.jpg",
+              "thumbnailwidth": 75
+            },
+            "type": "image"
+          }
+        ],
+        "headline": {
+          "main": "‘Confederate’ Inspires #NoConfederate",
+          "print_headline": "‘Confederate’ Inspires #NoConfederate"
+        },
+        "keywords": [
+          {
+            "isMajor": "N",
+            "rank": 1,
+            "name": "subject",
+            "value": "Television"
+          },
+          {
+            "isMajor": "N",
+            "rank": 2,
+            "name": "organizations",
+            "value": "Home Box Office"
+          },
+          {
+            "isMajor": "N",
+            "rank": 3,
+            "name": "persons",
+            "value": "Benioff, David"
+          },
+          {
+            "isMajor": "N",
+            "rank": 4,
+            "name": "persons",
+            "value": "Weiss, D B"
+          },
+          {
+            "isMajor": "N",
+            "rank": 5,
+            "name": "creative_works",
+            "value": "Confederate (TV Program)"
+          },
+          {
+            "isMajor": "N",
+            "rank": 6,
+            "name": "organizations",
+            "value": "Twitter"
+          }
+        ],
+        "pub_date": "2017-07-31T14:43:15+0000",
+        "document_type": "article",
+        "news_desk": "Culture",
+        "section_name": "Arts",
+        "subsection_name": "Television",
+        "byline": {
+          "person": [
+            {
+              "organization": "",
+              "role": "reported",
+              "rank": 1,
+              "firstname": "Sophie",
+              "lastname": "HAIGNEY"
+            }
+          ],
+          "original": "By SOPHIE HAIGNEY"
+        },
+        "type_of_material": "News",
+        "_id": "597f42157c459f246b61be5a",
+        "word_count": 277,
+        "slideshow_credits": null
+      }
+    ]
+  },
+  "status": "OK",
+  "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}

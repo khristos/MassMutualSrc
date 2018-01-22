@@ -1,0 +1,130 @@
+//
+//-- Header
+//
+
+.page-header {
+	background: $color-base;
+	color: #FFF;
+	//text-align: center;
+	text-transform: uppercase;
+	padding: 1.5em 1em;
+	position: relative;
+
+	@include phone-land {
+		text-align: center;
+		padding: 1.5em 0;
+	}
+
+	@include tablet-port {
+		padding: 1.0em 0;
+	}
+}
+
+.page__title {
+	font-size: em(16);
+	font-weight: 600;
+	letter-spacing: .5px;
+
+	@include tablet-port {
+		font-size: em(22);
+	}
+
+	@include tablet-land {
+		font-size: em(24);
+	}
+}
+
+.page-nav {
+	text-align: left;
+	padding: 1em 0 0;
+	font-size: em(14);
+	font-weight: bold;
+	box-shadow: 0 0 12px 1px rgba(0,0,0,0.13);
+
+	@include tablet-port {
+		font-size: em(15);
+		padding: 0;
+		text-align: center;
+	}
+	@include laptop {
+		font-size: em(18);
+	}
+}
+
+.page-nav__li {
+	position: relative;
+	border-bottom: 1px solid #CCC;
+	
+	@include tablet-port {
+		border: 0;
+		display: inline-block;
+
+		&::after {
+			content: ""; //delimiter
+			position: absolute;
+			top: 50%;
+			right: -0.15em;
+			transform: translate(0, -50%);
+		}
+
+		&:last-child::after {
+			display: none;
+		}
+	}
+}
+
+.page-nav__item {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	text-transform: none;
+	transition: opacity 0.2s ease;
+	padding: 0.5em 1em;
+
+	&:hover {
+		opacity: 0.7;
+		border-bottom: .10em solid #1e87f0;
+	}
+
+	@include tablet-port {
+		//font-size: em(18);
+		padding: 0.825em 2.5em;
+		//padding: 0.825em 2.7em 0.825em 2.2em;
+	}
+
+	@include tablet-land {
+		//font-size: em(18);
+		padding: 0.825em 3.2em;
+		//padding: 0.825em 2.7em 0.825em 3.5em;
+	}
+}
+
+.page-nav__hamburger {
+	display: inline-block;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+	margin-bottom: 1em;
+	padding: 0 1em;
+
+	&:hover {
+		transform: scale(1.2);
+	}
+
+	@include tablet-port {
+		display: none;
+	}
+}
+
+.page-nav__ul {
+	display: none;
+
+	@include tablet-port {
+		display: block !important;
+	}
+}
+
+.page-nav [aria-current] {
+	font-weight: bold;
+	border-bottom: .10em solid $color-header-nav-current;
+}
+

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Front-End Developer Candidate Exercise | MassMutual</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="page site-width ma">
+		<header class="page-header" role="banner">
+			<h1 class="page__title">The Times</h1>
+			<form action="" method="get" class="m-search m-search-default" role="search">
+				<label class="hide" for="s">Search</label>
+				<div class="m-search-wrapper open">
+					<input id="s" name="s" class="m-search__input" placeholder="Search" type="search" value="">
+
+					<button class="m-search__button" type="submit">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="18.353px" height="18.353px" viewBox="0 0 18.353 18.353" enable-background="new 0 0 18.353 18.353" xml:space="preserve"><path fill="#CCCCCC" d="M18.207 16.086l-5.314-5.315C13.589 9.682 14 8.39 14 7c0-3.866-3.133-7-7-7C3.134 0 0 3.134 0 7s3.134 7 7 7c1.39 0 2.681-0.41 3.77-1.108l5.315 5.315c0.193 0.194 0.512 0.194 0.707 0l1.414-1.414C18.402 16.598 18.402 16.279 18.207 16.086zM7 12c-2.757 0-5-2.243-5-5s2.243-5 5-5c2.757 0 5 2.243 5 5S9.757 12 7 12z"></path></svg>
+						<span class="hide">Search</span>
+					</button>
+				</div>
+			</form>
+		</header> <!-- /.page-header -->
+		<nav class="page-nav" role="navigation">
+			<span class="page-nav__hamburger" aria-label="Menu">
+				<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1">
+					<rect x="2" y="4" width="16" height="2"></rect>
+					<rect x="2" y="9" width="16" height="2"></rect>
+					<rect x="2" y="14" width="16" height="2"></rect>
+				</svg>
+			</span>
+			<ul class="page-nav__ul">
+				<li class="page-nav__li">
+					<a href="#home" class="page-nav__item" aria-current="page">
+						Home
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#portfolio" class="page-nav__item">
+						World
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#blog" class="page-nav__item">
+						U.S.
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#contact" class="page-nav__item">
+						Politics
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#contact" class="page-nav__item">
+						N.Y.
+					</a>
+				</li>
+				<li class="page-nav__li">
+					<a href="#contact" class="page-nav__item">
+						More
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="stories section" id="stories">
+			<div class="site-width ma">
+
+				<h2 class="stories__title section__title">Top Stories</h2>
+
+				<div class="grid storiesView_1">
+					<div class="stories__collection grid-xs--12 grid-md--7 grid-lg--7">
+						<ul class="stories__top">
+							<li class="stories__top-li">
+								<article class="stories__theme-summary">
+									<div class="m-card m-card-primary">
+										<div class="m-card-header">
+											<div class="flex-grid">
+												<div class="width-expand first-column">
+													<h3 class="m-card-title"><a href="#">Article Title 3 lines</a></h3>
+													<p class="m-text-meta margin-remove-top">
+														By <span class="author" itemprop="author">Mark Lamda</span>
+														<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+													</p>
+												</div>
+												<div class="m-card-media flex-middle">
+													<img src="http://via.placeholder.com/160x160" alt="Demo Image">
+												</div>
+											</div>
+										</div>
+										<div class="m-card-body">
+											<p>Body Text 5 lines. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
+										</div>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</div>
+					<div class="stories__collection grid-xs--12 grid-md--5 grid-lg--5">
+						<ul class="stories__group grid">
+							<li class="grid-xs--12">
+								<article class="stories__theme-summary">
+									<div class="m-card m-card-default">
+										<div class="m-card-header">
+											<div class="flex-grid">
+												<div class="width-expand first-column">
+													<h3 class="m-card-title margin-remove-bottom"><a href="#">Article Title 3 lines</a></h3>
+												</div>
+											</div>
+										</div>
+										<div class="m-card-footer">
+											<p class="m-text-meta margin-remove-top">
+												By <span class="author" itemprop="author">Mark Lamda</span>
+												<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+											</p>
+										</div>
+									</div>
+								</article>
+							</li>
+							<li class="grid-xs--12">
+								<article class="stories__theme-summary">
+									<div class="m-card m-card-default">
+										<div class="m-card-header">
+											<div class="flex-grid">
+												<div class="width-expand first-column">
+													<h3 class="m-card-title margin-remove-bottom"><a href="#">Article Title 3 lines</a></h3>
+												</div>
+											</div>
+										</div>
+										<div class="m-card-footer">
+											<p class="m-text-meta margin-remove-top">
+												By <span class="author" itemprop="author">Mark Lamda</span>
+												<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+											</p>
+										</div>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</div>
+				</div> <!-- /.grid -->
+
+				<div class="storiesView_2">
+					<div class="grid stories__collection">
+						<div class="m-card m-card-default grid-collapse flex-grid margin">
+							<div class="m-card-media-left cover-container first-column grid-sm--3">
+								<img src="https://dummyimage.com/600x400/ccc/000" alt="" class="cover" style="width:100%; height:100%">
+								<canvas width="600" height="400"></canvas>
+							</div>
+							<div class="grid-sm--9">
+								<div class="m-card-body grid-collapse flex flex-column">
+									<h3 class="m-card-title">Article Title 1 line</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+									<footer class="m-card-footer">
+										<p class="m-text-meta margin-remove-top">
+											By <span class="author" itemprop="author">Mark Lamda</span>
+											<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+										</p>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.grid -->
+				</div>
+
+			</div> <!-- /.site-width -->
+		</section> <!-- /.stories -->
+
+		<!-- Full Article Detail -->
+		<section class="stories section stories__detail" id="stories-detail" style="display: none;">
+			<div class="site-width ma">
+
+				<ul class="m-breadcrumb">
+					<li><a href="#home">Home</a></li>
+					<li><span>Article</span></li>
+				</ul>
+
+				<h2 class="stories__title section__title">Full Article Title</h2>
+				<p class="m-text-meta margin-remove-top">
+						By <span class="author" itemprop="author">Mark Lamda</span>
+						<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+					</p>
+
+				<div class="storiesView_2">
+					<div class="grid stories__collection">
+						<div class="m-card m-card-default grid-collapse flex-grid margin box-shadow-none">
+							<div class="m-card-media m-card-media-left cover-container first-column grid-sm--3">
+								<img src="https://dummyimage.com/600x400/ccc/000" alt="" class="cover" style="width:100%; height:100%">
+								<canvas width="600" height="400"></canvas>
+							</div>
+							<div class="grid-sm--9">
+								<div class="m-card-body grid-collapse flex flex-column">
+									<h3 class="m-card-title">Article Title 1 line</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+									<footer class="m-card-footer">
+										<p class="m-text-meta margin-remove-top">
+											By <span class="author" itemprop="author">Mark Lamda</span>
+											<time data-utc-timestamp="1515705768" datetime="1515705768">8:50 AM ET</time>
+										</p>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div> <!-- /.grid -->
+
+			</div> <!-- /.site-width -->
+		</section> <!-- /.stories .stories-detail -->
+
+
+		<!-- Article Search -->
+		<section class="stories section stories__search" id="stories-search" style="display: none;">
+			<div class="site-width ma">
+
+				<ul class="m-breadcrumb">
+					<li><a href="#home" rel="">Home</a></li>
+					<li><span>Search</span></li>
+				</ul>
+
+				<div class="storiesView_2">
+					<div class="grid stories__collection divider">
+						<div class="m-card m-card-default grid-collapse flex-grid margin">
+							<div class="m-card-media m-card-media-left cover-container first-column grid-sm--3">
+								<img src="https://dummyimage.com/600x400/ccc/000" alt="" class="cover" style="min-width:180px; height:120px">
+								<canvas width="600" height="400"></canvas>
+							</div>
+							<div class="grid-sm--9">
+								<div class="m-card-body grid-collapse flex flex-column">
+									<h3 class="m-card-title"><a href="#" rel="">Article Title 1 line</a></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- /.grid -->
+				</div>
+
+			</div> <!-- /.site-width -->
+		</section> <!-- /.stories .stories-search -->
+
+	</div> <!-- /.page -->
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>-->
+<script src="js/babel.min.js"></script>
+<script type="text/babel" src="js/main.js"></script>
+
+</body>
+</html>

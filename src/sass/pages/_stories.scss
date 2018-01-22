@@ -1,0 +1,59 @@
+//
+//-- Stories
+//
+
+.stories__top {
+	margin-bottom: 2em;
+	text-align: left;
+
+	.m-card-header {
+		min-height: 192px;
+	}
+	.m-card-body {
+		min-height: 133px;
+	}
+}
+
+
+.stories__group > * {
+	margin-bottom: 2em;
+	align-items: center;
+}
+
+.stories__theme-summary {
+
+}
+
+.stories__detail {
+	.m-card {
+		box-shadow: none;
+	}
+
+	.m-card-body {
+		padding: 10px 10px;
+	}
+
+	.m-card-media {
+		padding-left: 0;
+	}
+
+	.m-text-meta {
+		margin-bottom: 30px;
+	}
+}
+
+.stories__search {
+
+	.m-card {
+		box-shadow: none;
+	}
+
+	.m-card-media {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.stories__collection.divider>div:not(:first-child) {
+		border-top: 1px solid #e5e5e5;
+	}
+}

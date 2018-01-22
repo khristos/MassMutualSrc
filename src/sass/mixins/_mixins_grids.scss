@@ -1,0 +1,48 @@
+//
+//-- Grid mixins
+//
+
+@mixin generate_grid($type, $gutter) {
+	%grid-#{$type}--base {
+		float: left;
+		padding-left: $grid-gutter;
+		padding-right: $grid-gutter;
+	}
+
+	@for $i from 1 through 12 {
+		.grid-#{$type}--#{$i} {
+			@extend %grid-#{$type}--base;
+			width: (100% / 12) * $i;
+		}
+	}
+}
+
+@mixin generate_child_grid($type, $gutter) {
+	%grid-child-#{$type}--base {
+		display: inherit;
+	}
+
+	@for $i from 1 through 12 {
+		.grid-child-#{$type}--#{$i}>* {
+			@extend %grid-child-#{$type}--base;
+			width: (100% / 12) * $i;
+		}
+	}
+}
+
+
+//@mixin generate_grid($type, $gutter) {
+
+	//@for $i from 1 to 12 {
+		//.grid-#{$type}--#{$i} {
+			//float: left;
+			//padding-left: $gutter;
+			//padding-right: $gutter;
+		//}
+	//}
+
+//}
+
+//@include generate_grid(lg, 10px);
+
+
