@@ -1,7 +1,10 @@
 # Front-End Developer Candidate Exercise | MassMutual
 
 ## Download
-1. Download/clone repo to local machine.
+1. Download or clone repo to local machine.
+   * Clone: $ git clone https://github.com/khristos/MassMutualSrc.git or,
+   * Download: https://github.com/khristos/MassMutualSrc/archive/master.zip
+   
 
 ## Install [Nodes.js required]
 1. Use favorite CLI to run install from root directory.
