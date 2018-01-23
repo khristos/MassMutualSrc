@@ -54,6 +54,15 @@
     $on(view.$searchForm, 'submit', function(e) {
       e.preventDefault();
     });
+    let els = view.$homeButton;
+    let links = els.forEach((item, i) => {
+      $on(item, 'click', function(e) {
+        e.preventDefault();
+        hide(view.$storiesDetail);
+        show(view.$stories, 'block');
+        hide(view.$storiesSearch);
+      });
+    });
     /*$on(qsa('a[href=#home]'), 'click', function(e) {
       e.preventDefault();
       hide(view.$storiesDetail);
@@ -80,6 +89,7 @@
   const view = {
     $hamburger: qs('.page-nav__hamburger'),
     $pageNav: qs('.page-nav__ul'),
+    $homeButton: qsa('a[href="#home"]'),
     $searchForm: qs('.page-header .m-search'),
     $searchButton: qs('.page-header .m-search__button'),
     $stories: qs('#stories'),
@@ -124,6 +134,7 @@
       this.topStory();
       this.topStoriesAside();
       this.topStoriesList();
+      this.topStoriesDetailLinks();
       this.topStoriesDetail();
       this.topStoriesSearch();
     },
@@ -231,24 +242,27 @@
       view.render(topStoryList, content);
     },
 
-    topStoriesDetail(hash) {
-      console.log('topStoryDetail() invoked');
-      //let _id = '597f45677c459f246b61be60' || hash;
-      let _id = '597f47927c459f246b61be63' || hash;
+    topStoriesDetailLinks() {
+      console.log('topStoriesDetailLinks() invoked');
       let els = document.querySelectorAll('a[rel="next"]');
-      let links = Array.from(els).map((item, i) => {
+      //console.log(els);
+      let links = els.forEach((item, i) => {
         $on(item, 'click', function(e) {
           e.preventDefault();
           let hash = item.hash;
-          //this.topStoriesDetail(hash);
+          news.topStoriesDetail(hash);
           show(view.$storiesDetail, 'block');
           hide(view.$stories);
           hide(view.$storiesSearch);
         });
       });
+    },
 
-      console.log(els);
-      
+    topStoriesDetail(hash) {
+      console.log('topStoryDetail() invoked');
+      this.topStoriesDetailLinks();
+      let _id = hash ? hash.substr(1) : '597f45677c459f246b61be60';
+
       const data = this.articles.find(function(element){return element._id === _id});
 
       // Article selectors
@@ -257,8 +271,7 @@
       const articleBody = (qs(view.topStoryDetail + ' ' + view.cardBody));
       const articleMedia = qs(view.topStoryDetail + ' ' + view.cardMedia);
 
-      const templateTitle = (data) => {
-        return `${data.title}`;}
+      const templateTitle = (data) => {return `${data.title}`;}
       let content = templateTitle(data);
       view.render(articleTitle, content);
 
@@ -311,6 +324,10 @@
       view.render(topStorySearch, content);
     }
   };
+
+  const events = {
+
+  }
 
   //$on(window, 'load', setHamburger);
   
