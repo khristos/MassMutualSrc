@@ -176,7 +176,7 @@
       view.render(articleBody, content);
 
       // Article image
-      const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="Demo Image" style="width:180px; height:auto">`;
+      const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[1].url}" alt="Demo Image" style="width:190px; height:auto">`;
       content = templateMedia;
       view.render(articleMedia, content);
     },
@@ -224,7 +224,7 @@
         return `
         <div class="m-card m-card-default grid-collapse flex-grid margin">
           <div class="m-card-media-left cover-container first-column grid-sm--3">
-            <img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="Demo Image" class="cover" style="width:100%; height:100%">
+            <img src="${view.nytMediaUrl}${data.multimedia[1].url}" alt="Demo Image" class="cover" style="width:100%; height:100%">
             <canvas width="600" height="400"></canvas>
           </div>
           <div class="grid-sm--9">
@@ -299,7 +299,7 @@
 
       // Article image
       if (data.multimedia.length > 0) {
-        const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="Demo Image" style="">`;
+        const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[1].url}" alt="Demo Image" style="">`;
         content = templateMedia;
         view.render(articleMedia, content);
       }
@@ -313,7 +313,7 @@
         return `
         <div class="m-card m-card-default grid-collapse flex-grid margin divider">
           <div class="m-card-media m-card-media-left cover-container first-column grid-sm--3">
-            <img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="" class="cover" style="min-width:180px; min-height:120px;">
+            <img src="${view.nytMediaUrl}${data.multimedia[1].url}" alt="" class="cover" style="min-width: 190px; width: 190px;">
             <canvas width="600" height="400"></canvas>
           </div>
           <div class="grid-sm--9">
