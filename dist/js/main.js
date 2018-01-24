@@ -70,6 +70,12 @@
     });*/
   }
 
+  function formatDate(dateISO) {
+    const ts = new Date(dateISO);
+    //console.log(dateISO);
+    return (ts.toDateString() + ' ' + ts.toLocaleTimeString());
+  }
+
   // Collect all article metadata for bespoke instances
   class ArticleDefault {
     constructor(doc) {
@@ -148,8 +154,8 @@
       const articleBody = (qs(view.topStory + ' ' + view.cardBody));
       const articleMedia = qs(view.topStory + ' ' + view.cardMedia);
 
-      const templateTitle = (data) => {
-        return `<a href="#${data._id}" rel="next">${data.title}</a>`;}
+      //Article title
+      const templateTitle = (data) => { return `<a href="#${data._id}" rel="next">${data.title}</a>`; }
       let content = templateTitle(data);
       view.render(articleTitle, content);
 
@@ -157,8 +163,9 @@
       const templateByline = (data) => {
         return `
         <span class="author" itemprop="author">${data.bylineOriginal}</span>
-        <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${data.pubDate}</time>
+        <time data-utc-timestamp="" datetime="${data.pubDate}">${formatDate(data.pubDate)}</time>
       `;
+      
       }
       content = templateByline(data);
       view.render(articleByline, content);
@@ -192,7 +199,7 @@
               <div class="m-card-footer">
                 <p class="m-text-meta margin-remove-top">
                 <span class="author" itemprop="author">${data.bylineOriginal}</span>
-                <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${data.pubDate}</time>
+                <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${formatDate(data.pubDate)}</time>
                 </p>
               </div>
             </div>
@@ -227,7 +234,7 @@
               <footer class="m-card-footer">
                 <p class="m-text-meta margin-remove-top">
                   <span class="author" itemprop="author">${data.bylineOriginal}</span>
-                  <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${data.pubDate}</time>
+                  <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${formatDate(data.pubDate)}</time>
                 </p>
               </footer>
             </div>
@@ -279,7 +286,7 @@
       const templateByline = (data) => {
         return `
         <span class="author" itemprop="author">${data.bylineOriginal}</span>
-        <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${data.pubDate}</time>
+        <time data-utc-timestamp="${data.pubDate}" datetime="${data.pubDate}">${formatDate(data.pubDate)}</time>
       `;
       }
       content = templateByline(data);

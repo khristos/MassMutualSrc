@@ -8,6 +8,10 @@
 
 	.m-card-header {
 		min-height: 192px;
+	
+		.first-column {
+			padding-right: 10px;
+		}
 	}
 	.m-card-body {
 		min-height: 133px;
@@ -43,7 +47,6 @@
 }
 
 .stories__search {
-
 	.m-card {
 		box-shadow: none;
 	}

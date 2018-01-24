@@ -845,6 +845,10 @@ body, input, select, textarea, button {
   min-height: 192px;
 }
 
+.stories__top .m-card-header .first-column {
+  padding-right: 10px;
+}
+
 .stories__top .m-card-body {
   min-height: 133px;
 }
