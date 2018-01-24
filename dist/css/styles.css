@@ -882,6 +882,10 @@ body, input, select, textarea, button {
           box-shadow: none;
 }
 
+.stories__search .m-card-body {
+  padding: 30px 0px;
+}
+
 .stories__search .m-card-media {
   padding-left: 0;
   padding-right: 0;

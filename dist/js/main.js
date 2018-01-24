@@ -72,7 +72,7 @@
 
   function formatDate(dateISO) {
     const ts = new Date(dateISO);
-    //console.log(dateISO);
+    //console.log(ts);
     return (ts.toDateString() + ' ' + ts.toLocaleTimeString());
   }
 
