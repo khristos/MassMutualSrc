@@ -176,7 +176,7 @@
       view.render(articleBody, content);
 
       // Article image
-      const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="Demo Image" style="width:226px; height:150px">`;
+      const templateMedia = `<img src="${view.nytMediaUrl}${data.multimedia[0].url}" alt="Demo Image" style="width:180px; height:auto">`;
       content = templateMedia;
       view.render(articleMedia, content);
     },
